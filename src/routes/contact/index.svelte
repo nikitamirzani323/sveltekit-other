@@ -1,0 +1,1 @@
+<h1 class="font-semibold uppercase">CONTACT</h1>
