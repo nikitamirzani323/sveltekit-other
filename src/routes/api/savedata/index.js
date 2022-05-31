@@ -4,6 +4,7 @@ export async function post(event){
     const nik = object.nik
     const result = nama+"-"+nik
     return {
+        status:200,
         body:{hello:'world',data:result}
     }
 }
