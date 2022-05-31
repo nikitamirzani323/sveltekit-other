@@ -1,9 +1,9 @@
-// export function get(request){
-//     // console.log(request.params)
-//     return {
-//        body:['a','b','c']
-//     }
-// }
+export function get(request){
+    console.log(request.params)
+    return {
+       body:['a','b','c']
+    }
+}
 
 export async function post(event){
     const object =  await event.request.formData();
